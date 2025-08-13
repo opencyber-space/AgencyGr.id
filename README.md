@@ -3,6 +3,54 @@
 **A unified backend for orchestrating roles, workflows, policies, tasks, and infrastructure for AI-driven organizations.**
 Modular, policy-aware, and designed for secure, scalable, and autonomous operations in modern cloud-native environments.
 
+### Project Status 🚧
+
+* **Alpha**: This project is in active development and subject to rapid change. ⚠️
+* **Testing Phase**: Features are experimental; expect bugs, incomplete functionality, and breaking changes. 🧪
+* **Not Production-Ready**: We **do not recommend using this in production** (or relying on it) right now. ⛔
+* **Compatibility**: APIs, schemas, and configuration may change without notice. 🔄
+* **Feedback Welcome**: Early feedback helps us stabilize future releases. 💬
+
+
+---
+
+
+## 📚 Contents 
+
+* [Org Registry](https://agency-docs-internal.pages.dev/org/org-registry)
+* [Org Modules](https://agency-docs-internal.pages.dev/org/org-modules)
+* [Org Roles](https://agency-docs-internal.pages.dev/org/org-roles)
+* [Org Association System](https://agency-docs-internal.pages.dev/org/org-association-system)
+* [Org Constraints Executor](https://agency-docs-internal.pages.dev/org/org-constraints-executor)
+* [Org Job Contracts](https://agency-docs-internal.pages.dev/org/org-job-contracts)
+* [Org Job Processing](https://agency-docs-internal.pages.dev/org/org-job-processing)
+* [Org Tasks DB](https://agency-docs-internal.pages.dev/org/org-tasks-db)
+* [Org Functions Tool](https://agency-docs-internal.pages.dev/org/org-functions-tool)
+* [Org Resources](https://agency-docs-internal.pages.dev/org/org-resources)
+* [Org Gateway](https://agency-docs-internal.pages.dev/org/org-gateway)
+
+---
+
+## 🔗 Links
+
+* 📄 [Vision Paper](https://resources.aigr.id/)
+* 📚 [Documentation](https://agency-docs-internal.pages.dev/)
+* 💻 [GitHub](https://github.com/opencyber-space/AgencyGr.id)
+
+---
+
+## 🏗 Architecture Diagrams
+
+* 🛡 [Org Constraints System](https://agency-docs-internal.pages.dev/images/org-constraints.png)
+* 🚪 [Org Gateway](https://agency-docs-internal.pages.dev/images/org-gateway.png)
+* 📜 [Org Job–Contract Mapping System](https://agency-docs-internal.pages.dev/images/org-job-contracts.png)
+* ⚙ [Org Job Processing System](https://agency-docs-internal.pages.dev/images/org-job-process.png)
+* 🧠 [Org Workflow Executor](https://agency-docs-internal.pages.dev/images/org-workflow-executor.png)
+* 🗂 [Orgs Registry](https://agency-docs-internal.pages.dev/images/org-registry.png)
+* 🚀 [Org Deployer](https://agency-docs-internal.pages.dev/images/org-deeployer.png)
+* 👥 [Org Roles System](https://agency-docs-internal.pages.dev/images/org-roles.png)
+* 🗄 [Org Tasks Database](https://agency-docs-internal.pages.dev/images/org-tasks-db.png)
+
 ---
 
 ## 🌟 Highlights
@@ -93,69 +141,22 @@ Modular, policy-aware, and designed for secure, scalable, and autonomous operati
 | 🔹 Inefficient job allocation across agents           | Constraint-evaluated assignment engine with queue fallback  |
 | 🔹 Lack of observability into function/tool execution | WebSocket and Redis tracking for every execution lifecycle  |
 
----
-
-## 🛠 Project Status
-
-🟢 **Actively Maintained and Production-Ready**
-📦 Microservice modularity: plug/unplug specific components
-🔧 Clean architecture for scaling to 1000s of orgs, workflows, and jobs
-🧪 DSL-based logic makes it adaptable for diverse governance policies
-🤝 Built for federation, decentralization, and composable governance
 
 ---
 
-## 📁 Source Tree
+## 📢 Communications
 
-All code resides under `src/`:
-
-```
-src/
-├── assignment-system
-├── constraints_checker
-├── contracts-generator
-├── dsl_proxy
-├── gateway
-├── job-internal-processor
-├── org_autoscaler
-├── org_deployer
-├── org_registry
-├── org_resources
-├── roles_system
-├── task-internal-assigner
-├── tasks_db
-├── task_system
-├── tools_executor
-```
+1. 📧 Email: [community@opencyberspace.org](mailto:community@opencyberspace.org)  
+2. 💬 Discord: [OpenCyberspace](https://discord.gg/W24vZFNB)  
+3. 🐦 X (Twitter): [@opencyberspace](https://x.com/opencyberspace)
 
 ---
 
-## 📚 Documentation & Links
+## 🤝 Join Us!
 
-* 🧾 [Full Docs](docs/)
-* 🏗️ [Orgs Registry](./src/org_registry/)
-* ⚙️ [Constraints Checker](./src/constraints_checker/)
-* 🛠️ [Tools Executor](./src/tools_executor/)
-* 🔐 [Roles System](./src/roles_system/)
-* 🧠 [Workflows Engine](./src/dsl_proxy/)
-* 🏗️ \[Deployer & Autoscaler]\(./src/org\_deployer/ & ./src/org\_autoscaler/)
+This project is **community-driven**. Theory, Protocol, implementations - All contributions are welcome.
 
----
+### Get Involved
 
-## 📜 License
-
-Released under [Apache 2.0 License](./LICENSE).
-Use it, extend it, and contribute back.
-
----
-
-## 🗣️ Get Involved
-
-We're building a next-gen, policy-first infrastructure for organizational AI.
-
-* 💬 Propose features or use-cases
-* 🐛 Report issues or edge-case bugs
-* 📢 Spread the word—empower governance at scale
-* 🤝 Contribute code, documentation, or plugins
-
-Let’s automate governance the right way.
+- 💬 [Join our Discord](https://discord.gg/W24vZFNB)  
+- 📧 Email us: [community@opencyberspace.org](mailto:community@opencyberspace.org)
