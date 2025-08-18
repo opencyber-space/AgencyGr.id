@@ -1,5 +1,7 @@
 # 🏛️ AgencyGrid: Open AI Societal Infrastructure
 
+[![part of project: AGI Grid](https://img.shields.io/badge/⚡️part%20of%20project-AGI%20Grid-0A84FF?style=for-the-badge)](https://www.AGIGr.id)
+
 In a **society of agents** or the Internet of Agents, billions of autonomous entities interact, collaborate, and compete across open, unbounded environments. Success here depends not only on what individual agents can do, but on how they are **organized, coordinated, and governed**. Without clear agency, the structures of roles, relationships, authority, and interaction rules - large-scale cooperation breaks down, trust erodes, and resilience falters.  
 
 **AgencyGrid** provides the formal mechanism for these open systems:  
